@@ -93,4 +93,4 @@ This script prompts you to enter the path to the new data file containing the re
 You can copy and paste this content directly into your README.md file. 
 
 ## Comments
-I  tested other models such as randomforest and catboost; their codes  , their visualizations, their MODELSCARD and  scores are stored in seperate folders, the scores of catboost model was really better than linerregression.
+I  tested other models such as randomforest and catboost; their codes  , their visualizations, their MODELSCARD and  scores are stored in seperate folders, the scores of catboost model was really better than linerregression. The randomforest had a big file and could not be pushed 
