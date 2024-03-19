@@ -21,13 +21,8 @@ This document provides information about the trained machine learning model for 
 
 The trained model is used to predict real estate prices based on input data containing the same features as used during training. The `predict.py` script can be used to make predictions on new real estate data.
 
-## Folder Structure
 
 
-- **MODELSCARD.md**: This document providing information about the model.
-- **train.py**: Python script for training the machine learning model.
-- **trained_catboost_model.pkl**: Pickled file containing the trained CatBoost model.
-- **figure_1 and figure_2**: The visualization of  predictions and real data on training and test dataset
 
 ## Author
 
