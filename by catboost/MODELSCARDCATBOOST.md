@@ -9,7 +9,8 @@ This document provides information about the trained machine learning model for 
 - **Model Name**: CatBoostRegressor
 - **Training Data**: Real estate dataset containing various features such as property type, location, and amenities.
 - **Target Variable**: Price (real estate prices)
-- **Features Used**: Numerical features (e.g., total area, number of bedrooms) and categorical features (e.g., property type, heating type).
+- **Features Used**: Numerical features (e.g., total area, number of bedrooms) and categorical features (e.g., property type, heating type)
+    and   F1_features.
 - **Preprocessing**: Imputation of missing values using mean for numerical features, one-hot encoding for categorical features.
 - **Evaluation Metric**: R-squared
 - **Performance Metrics**:

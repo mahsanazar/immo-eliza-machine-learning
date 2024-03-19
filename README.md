@@ -66,7 +66,6 @@ This script prompts you to enter the path to the new data file containing the re
 ## Folder Structure
 
 - **data**: Contains the real estate dataset (properties.csv) and any additional data files.
-- **preprocessing**: Contains scripts or notebooks for data preprocessing and feature scaling in different approach.
 - **visualizations**: Contains visualizations of the actual vs. predicted prices.
 - **.gitignore**: Specifies intentionally untracked files to ignore.
 - **MODELSCARD.md**: Provides information about the trained model, including its performance metrics and features.
@@ -74,12 +73,13 @@ This script prompts you to enter the path to the new data file containing the re
 - **notebook.ipynb**: Jupyter notebook for exploratory data analysis or additional modeling.
 - **predict.py**: Script for making predictions on new real estate data.
 - **predictiontest.py**: Script for testing predictions with different input with different columns and features.
-- **train with linerregression.py**: Script for training the machine learning model by linerregression.
+- **train with linerregression.py**: Script for training the machine learning model by linerregression and preprocessing.
 - **train with crossvalidation.py**: Script for training the machine learning model by linerregression and calculation of crossvalidation
 - **trained_model.pkl**: Serialized trained model saved for future use.
 - **randomforest**:Script for training the machine learning model by randomforest
 - **catboost**:Script for training the machine learning model by catboost
 - **scores**:all of scores : test and train and correlation scores are stored in this file
+- **preprocessing**:Includes scripts or notebooks for experimenting with data preprocessing and feature scaling using various methods
 
 
 
@@ -93,4 +93,6 @@ This script prompts you to enter the path to the new data file containing the re
 You can copy and paste this content directly into your README.md file. 
 
 ## Comments
-I  tested other models such as randomforest and catboost; their codes  , their visualizations, their MODELSCARD and  scores are stored in seperate folders, the scores of catboost model was really better than linerregression. The randomforest had a big file and could not be pushed 
+I  tested other models such as randomforest and catboost; their codes  , their visualizations, their MODELSCARD and  scores are stored in seperate folders, the scores of catboost model was really better than linerregression. The randomforest had a big file and could not be pushed.
+
+I've explored different approaches in the preprocessing folder, but the main training and preprocessing tasks are consolidated in train.py. Please disregard the preprocessing folder and navigate to the train.py folder instead.
