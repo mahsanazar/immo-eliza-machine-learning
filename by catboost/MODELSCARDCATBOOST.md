@@ -19,7 +19,7 @@ This document provides information about the trained machine learning model for 
 
 ## Model Usage
 
-The trained model is used to predict real estate prices based on input data containing the same features as used during training. The `predict.py` script can be used to make predictions on new real estate data.
+The trained model is used to predict real estate prices based on input data containing the same features as used during training. The `predictbycatboost.py` script can be used to make predictions on new real estate data.
 
 
 
