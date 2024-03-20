@@ -34,7 +34,7 @@ Team: solo
 
 ### Training the Model (train.py)
 
-Run the train.py script to train the machine learning model on the real estate dataset:
+Run the train.py script to train the machine learning model on the real estate dataset
 
 python train.py
 
@@ -60,7 +60,7 @@ This script prompts you to enter the path to the new data file containing the re
 - Loads the new data from the specified CSV file.
 - Preprocesses the new data using the same preprocessing steps as the training data.
 - Makes predictions using the trained model.
-- Saves the predictions to a CSV file named predictions.csv.
+- Saves the predictions to a CSV file named predictions.csv  and excel file named predictions.xlsx.
 
 
 ## Folder Structure
@@ -93,6 +93,6 @@ This script prompts you to enter the path to the new data file containing the re
 You can copy and paste this content directly into your README.md file. 
 
 ## Comments
-I  tested other models such as randomforest and catboost; their codes  , their visualizations, their MODELSCARD and  scores are stored in seperate folders, the scores of catboost model was really better than linerregression. The randomforest had a big file and could not be pushed.
+I  tested other models such as randomforest and catboost; their codes  , their visualizations, their MODELSCARD and  scores and predictions are stored in seperate folders, the scores of catboost model was really better than linerregression. The randomforest had a big file and could not be pushed.
 
 I've explored different approaches in the preprocessing folder, but the main training and preprocessing tasks are consolidated in train.py. Please disregard the preprocessing folder and navigate to the train.py folder instead.
