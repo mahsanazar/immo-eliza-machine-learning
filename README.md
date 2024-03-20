@@ -76,7 +76,6 @@ This script prompts you to enter the path to the new data file containing the re
 - **train with linerregression.py**: Script for training the machine learning model by linerregression and preprocessing.
 - **train with crossvalidation.py**: Script for training the machine learning model by linerregression and calculation of crossvalidation
 - **trained_model.pkl**: Serialized trained model saved for future use.
-- **randomforest**:Script for training the machine learning model by randomforest
 - **catboost**:Script for training the machine learning model by catboost
 - **scores**:all of scores : test and train and correlation scores are stored in this file
 - **preprocessing**:Includes scripts or notebooks for experimenting with data preprocessing and feature scaling using various methods
