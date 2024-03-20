@@ -5,8 +5,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import OneHotEncoder
 
 # Load the trained CatBoost model
-model_path = model_path = 'C:\\Users\\afshi\\Documents\\GitHub\\immo-eliza-machine-learning\\by catboost\\trained_catboost_model.pkl'
-
+model_path = 'C:\\Users\\afshi\\Documents\\GitHub\\immo-eliza-machine-learning\\by catboost\\trained_catboost_model.pkl'
 catboost_model = joblib.load(model_path)
 
 # Load new data
@@ -38,6 +37,11 @@ X = np.concatenate([new_data[numerical_features], encoded_features, new_data[fl_
 predictions = catboost_model.predict(X)
 
 # Save predictions to a CSV file
-output_file = 'predictions.csv'
-pd.DataFrame(predictions, columns=['Predicted_Price']).to_csv(output_file, index=False)
-print(f"Predictions saved to {output_file}")
+output_csv_file = 'predictions.csv'
+pd.DataFrame(predictions, columns=['Predicted_Price']).to_csv(output_csv_file, index=False)
+print(f"Predictions saved to {output_csv_file}")
+
+# Save predictions to an Excel file
+output_excel_file = 'predictions.xlsx'
+pd.DataFrame(predictions, columns=['Predicted_Price']).to_excel(output_excel_file, index=False)
+print(f"Predictions saved to {output_excel_file}")
